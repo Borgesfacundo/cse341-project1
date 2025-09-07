@@ -3,6 +3,8 @@ const express = require("express");
 const mongodb = require("./data/database");
 const app = express();
 
+app.use(express.json()); // parsing json in body
+
 const port = process.env.PORT || 3000;
 
 //middleware
