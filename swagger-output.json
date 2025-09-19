@@ -8,8 +8,8 @@
   "host": "project1-3unp.onrender.com/",
   "basePath": "/",
   "schemes": [
-    "http",
-    "https"
+    "https",
+    "http"
   ],
   "paths": {
     "/": {
